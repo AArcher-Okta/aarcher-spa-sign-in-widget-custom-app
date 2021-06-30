@@ -29,7 +29,7 @@ const config = {
   pkce: true
 }
 
-export function onAuthRequired(oktaAuth: any, injector: { get: (arg0: typeof Router) => any; }) {
+export function onAuthRequired(_oktaAuth: any, injector: { get: (arg0: typeof Router) => any; }) {
   const router = injector.get(Router);
 
   // Redirect the user to your custom login page

@@ -1,6 +1,3 @@
-/* @import '~https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.1.0/css/okta-sign-in.min.css';
-@import '~https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.1.0/css/okta-theme.css'; */
-
 /* Global Styles */
 
 * {
@@ -112,6 +109,17 @@ app-top-bar {
   border-radius: 10px;
   margin: 100px;
   padding: 20px;
+}
+
+/* okta sign in widget container */
+.widgetContainer {
+  display: flex;
+  width: 100%;
+  height: 68px;
+  background-color: #21062f;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
 }
 
 .textWrapper {
