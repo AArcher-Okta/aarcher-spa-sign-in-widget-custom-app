@@ -15,6 +15,8 @@ export class LoginComponent implements OnInit {
   authService;
   widget = new OktaSignIn({
     el: '#okta-signin-container',
+    // add registration
+    features: { registration:true },
     baseUrl: 'https://dev-62376248.okta.com',
     authParams: {
       pkce: true

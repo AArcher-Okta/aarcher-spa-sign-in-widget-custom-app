@@ -2,7 +2,7 @@
 
 * {
   font-family: 'Roboto', Arial, sans-serif;
-  color: #fff;
+  color: rgb(241, 104, 50);
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -80,7 +80,7 @@ app-top-bar {
   border-radius: 5px;
   font-size: 14px;
   cursor: pointer;
-  background-color: #ef4339;
+  background-color: #ef3939;
   color: white;
   border: 1px solid #fff;
 }
@@ -89,6 +89,39 @@ app-top-bar {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#okta-signin-container {
+  display: flex;
+  margin-top: 100px;
+  padding: 50px;
+  border-radius: 5px;
+  background-color:  #21062f;
+}
+
+app-secure-style {
+  display: flex;
+  margin-top: 100px;
+  padding: 50px;
+  border-radius: 5px;
+  font-size: 100px;
+  background-color:  #21062fce;
+  text-align: center;
+}
+
+.widgetContainer {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 100px;
+  background-color: #21062f7c;
+}
+
+.widgetWrapper {
+  display: flex;
+}
+
+.productTitle {
+  text-align: center;
 }
 
 .productContainer {
@@ -111,16 +144,6 @@ app-top-bar {
   padding: 20px;
 }
 
-/* okta sign in widget container */
-.widgetContainer {
-  display: flex;
-  width: 100%;
-  height: 68px;
-  background-color: #21062f;
-  padding: 16px;
-  display: flex;
-  flex-direction: row;
-}
 
 .textWrapper {
   max-width: 325px;

@@ -23,10 +23,7 @@ export class CartComponent {
     private formBuilder: FormBuilder,
     private router: Router
     ) {}
-    // if (this.items == []) {
-    //   console.warn('Your cart is empty')
-    // }
-    // else {}
+
   onSubmit(): void {
 
       // Process checkout data here

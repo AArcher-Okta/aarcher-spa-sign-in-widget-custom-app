@@ -6,9 +6,11 @@
     <img class="imgUrl" [src]="product.imgUrl"> 
     <h4>{{ product.price | currency }}</h4>
     <p>{{ product.description }}</p>
+    
 
     <button (click)="addToCart(product)">Buy</button>
     <!-- add a home button -->
     <a class="home" id="home" routerLink="/">Back to Products</a>
   </div>
+  
 </div>

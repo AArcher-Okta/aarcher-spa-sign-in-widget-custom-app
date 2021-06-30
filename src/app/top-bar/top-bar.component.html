@@ -2,15 +2,10 @@
   <h1>
     <a routerLink="/">Archer Tecknology</a>
   </h1>
-
 <img src="https://i.ibb.co/s2Phr44/archer-image.png" alt="archer logo" class="archerLogo">
 </div>
-<div class="widgetContainer">
-  <button routerLink="/"> Home </button>
-  <button *ngIf="!isAuthenticated" routerLink="/login"> Login </button>
-  <button *ngIf="isAuthenticated" (click)="logout()"> Logout </button>
-  <button routerLink="/protected"> Protected </button>
-</div>
+
 <a routerLink="/cart" class="button fancy-button checkoutContainer">
   <i class="material-icons">shopping_cart</i>Checkout
 </a>
+
