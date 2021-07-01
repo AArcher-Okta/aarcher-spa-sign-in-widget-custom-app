@@ -43,6 +43,8 @@ export class LoginComponent implements OnInit {
             break;
           case '/protected':
             break;
+          case '/profile':
+            break;
           default:
             this.widget.remove();
             break;

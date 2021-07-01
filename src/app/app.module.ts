@@ -54,6 +54,14 @@ const appRoutes: Routes = [
     data: {
       onAuthRequired
     }
+  },
+  {
+    path: 'profile',
+    component: ProfileComponent,
+    canActivate: [ OktaAuthGuard ],
+    data: {
+      onAuthRequired
+    }
   }
 ]
 @NgModule({
@@ -79,8 +87,7 @@ const appRoutes: Routes = [
       { path: '', component: ProductListComponent},
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
-      { path: 'shipping', component: ShippingComponent },
-      { path: 'profile', component: ProfileComponent}
+      { path: 'shipping', component: ShippingComponent }
     ])
   ],
   providers: [

@@ -148,6 +148,20 @@ app-secure-style {
   padding: 20px;
 }
 
+.claimsContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  background-color: #21062f;
+  border-radius: 10px;
+  margin: 100px;
+  padding: 20px;
+}
+
+th, td {
+  border: 1px solid #fff;
+  padding: 10px;
+}
 
 .textWrapper {
   max-width: 325px;
