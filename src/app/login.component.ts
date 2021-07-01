@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Router, NavigationStart} from '@angular/router';
 
 import { OktaAuthService } from '@okta/okta-angular';
+/* refer to .d.ts in same directory for declaration - 
+known issue? 
+"error TS2307: Cannot find module '@okta/okta-signin-widget' or its corresponding type declarations."*/
 import * as OktaSignIn from '@okta/okta-signin-widget';
 
 @Component({
