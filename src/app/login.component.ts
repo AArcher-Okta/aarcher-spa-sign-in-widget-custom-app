@@ -1,3 +1,5 @@
+/* This route hosts the Sign-In Widget and redirects if the user is already logged in. 
+If the user is coming from a protected page, they'll be redirected back to the page upon login. */
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationStart} from '@angular/router';
 
@@ -14,6 +16,7 @@ import * as OktaSignIn from '@okta/okta-signin-widget';
     <div id="okta-signin-container"></div>
   `
 })
+
 export class LoginComponent implements OnInit {
   authService;
   widget = new OktaSignIn({
@@ -22,6 +25,7 @@ export class LoginComponent implements OnInit {
     features: { registration:true },
     baseUrl: 'https://dev-62376248.okta.com',
     authParams: {
+      // use PKCE in Authorization Code Grant flow
       pkce: true
     },
          clientId: '0oa12pg1938paTMyC5d7',

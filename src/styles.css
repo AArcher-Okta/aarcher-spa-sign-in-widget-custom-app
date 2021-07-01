@@ -1,5 +1,9 @@
 /* Global Styles */
 
+.profileComponent {
+  margin-top: 100px;
+}
+
 * {
   font-family: 'Roboto', Arial, sans-serif;
   color: rgb(241, 104, 50);
