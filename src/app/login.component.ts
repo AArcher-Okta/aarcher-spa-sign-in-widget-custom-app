@@ -23,6 +23,8 @@ export class LoginComponent implements OnInit {
     el: '#okta-signin-container',
     // add registration
     features: { registration:true },
+    // include these scopes in ID Token Claim
+    scopes: ['openid', 'profile', 'email'],
     baseUrl: 'https://dev-62376248.okta.com',
     authParams: {
       // use PKCE in Authorization Code Grant flow
