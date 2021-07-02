@@ -105,6 +105,19 @@ app-top-bar {
   width: 300px;
 }
 
+input {
+  width: 180px;
+} 
+
+.custom-checkbox {
+  display: flex;
+ width: 120px;
+}
+
+.mfa-send-email-content {
+  padding-bottom: 10px;
+}
+
 app-secure-style {
   display: flex;
   margin-top: 100px;
