@@ -5,7 +5,7 @@
 # This application uses Authorization Code Grant w/ PCKE flow
 
 ## SPA Application setings:
-### uses OIDC 
+### Uses OIDC 
 ### Client acting on behalf of a user: Authorization code
 ### Sign-in redirect URI: http://localhost:4200/login/callback
 ### Sign-out redirect URI: http://localhost:4200
