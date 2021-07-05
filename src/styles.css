@@ -4,7 +4,8 @@
 }
 
 * {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Roboto', system-ui, sans-serif;
+  font-weight: bold;
   color: #ff7e4a;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -219,7 +220,7 @@ th, td {
 
 .button:hover, button:hover {
   opacity: 0.8;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .button:disabled, button:disabled {
