@@ -4,7 +4,7 @@
 }
 
 * {
-  font-family: 'Roboto', system-ui, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-weight: bold;
   color: #ff7e4a;
   box-sizing: border-box;
@@ -212,11 +212,6 @@ th, td {
   margin-right: 2%;
   gap: 1%;
 }
-
-/* .checkoutContainer {
- display: flex;
- flex-direction: right;
-} */
 
 .button:hover, button:hover {
   opacity: 0.8;
