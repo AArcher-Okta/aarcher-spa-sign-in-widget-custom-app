@@ -1,13 +1,13 @@
 <app-top-bar></app-top-bar>
   <div class="container">
-    <div class="widgetWrapper">
-      <button class="widgetContainer" routerLink="/"> Home </button>
-      <button class="widgetContainer" *ngIf="!isAuthenticated" routerLink="/login"> Login </button>
-      <button class="widgetContainer" *ngIf="isAuthenticated" (click)="logout()"> Logout </button>
-      <button class="widgetContainer" routerLink="/protected" *ngIf="!isAuthenticated" style="display: none"> Protected </button>
-      <button class="widgetContainer" routerLink="/protected" *ngIf="isAuthenticated" style="display: flex"> Protected </button>
-      <button class="widgetContainer" routerLink="/profile" *ngIf="!isAuthenticated" style="display: none"> Profile </button>
-      <button class="widgetContainer" routerLink="/profile" *ngIf="isAuthenticated" style="display: flex"> Profile </button>
+    <div class="buttonWrapper">
+      <button class="oktaButton" routerLink="/"> Home </button>
+      <button class="oktaButton" *ngIf="!isAuthenticated" routerLink="/login"> Login </button>
+      <button class="oktaButton" *ngIf="isAuthenticated" (click)="logout()"> Logout </button>
+      <button class="oktaButton" routerLink="/protected" *ngIf="!isAuthenticated" style="display: none"> Protected </button>
+      <button class="oktaButton" routerLink="/protected" *ngIf="isAuthenticated" style="display: flex"> Protected </button>
+      <button class="oktaButton" routerLink="/profile" *ngIf="!isAuthenticated" style="display: none"> Profile </button>
+      <button class="oktaButton" routerLink="/profile" *ngIf="isAuthenticated" style="display: flex"> Profile </button>
     </div>   
 <router-outlet></router-outlet>
   </div>

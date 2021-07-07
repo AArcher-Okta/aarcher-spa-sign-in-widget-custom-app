@@ -129,7 +129,7 @@ app-secure-style {
   text-align: center;
 }
 
-.widgetContainer {
+.oktaButton {
   display: flex;
   margin-left: 5px;
   margin-right: 5px;
@@ -137,7 +137,7 @@ app-secure-style {
   background-color: #21062f7c;
 }
 
-.widgetWrapper {
+.buttonWrapper {
   display: flex;
 }
 
