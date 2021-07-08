@@ -223,6 +223,16 @@ th, td {
   cursor: auto;
 }
 
+.button-primary {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.email-button {
+  width: 140px;
+  margin-bottom: 10px;
+}
+
 /* Fancy Button */
 
 .fancy-button {
