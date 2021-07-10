@@ -27,7 +27,7 @@ export class LoginComponent implements OnInit {
     scopes: ['openid', 'profile', 'email'],
     baseUrl: 'https://dev-62376248.okta.com',
     authParams: {
-      // use PKCE in Authorization Code Grant flow
+      // use PKCE extension in Authorization Code Grant flow
       pkce: true
     },
          clientId: '0oa12pg1938paTMyC5d7',
@@ -38,6 +38,8 @@ export class LoginComponent implements OnInit {
     this.authService = oktaAuth;
 
     // Show the widget when prompted, otherwise remove it from the DOM.
+    /* case for /protected and /profile don't need to exist due to ngIf statements that hide the buttons, 
+    but will be left in case we want to not hide those buttons conditionally */
     router.events.forEach(event => {
       if (event instanceof NavigationStart) {
         switch(event.url) {
