@@ -3,8 +3,8 @@
 
   <p>
     <a routerLink="/shipping">Shipping Prices </a> 
-    ///
-    <a href="/" (ngSubmit)="onSubmit()" [disabled]="!items.length"> Clear Cart</a>
+    <a href="/" (ngSubmit)="onSubmit()" *ngIf="!items.length" style="display: none"> Clear Cart</a>
+    <a class ="clearCartLink" href="/" (ngSubmit)="onSubmit()" *ngIf="items.length" style="display: flex"> Clear Cart</a>
   </p>
 
   <div class="cart-item" *ngFor="let item of items">

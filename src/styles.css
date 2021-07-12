@@ -246,6 +246,10 @@ th, td {
   scroll-behavior: smooth;
 }
 
+.clearCartLink {
+  padding-top: 10px;
+}
+
 .fancy-button {
   background-color: #fff;
   color: #21062f;
