@@ -104,7 +104,6 @@ app-top-bar {
   border-radius: 5px;
   background-color:  #21062f;
   width: 350px;
-  /* max-height: 500px; */
 }
 
 input {
@@ -113,7 +112,7 @@ input {
 
 .custom-checkbox {
   display: flex;
- width: 120px;
+  width: 120px;
 }
 
 .mfa-send-email-content {
@@ -234,7 +233,7 @@ th, td {
   margin-bottom: 10px;
 }
 
- .chzn-results {
+.chzn-results {
   max-height: 100px;
   width: 200px;
   margin: 20px;
