@@ -5,7 +5,7 @@
 
 * {
   font-family: 'Roboto', Arial, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   color: #ff7e4a;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -215,7 +215,7 @@ th, td {
 
 .button:hover, button:hover {
   opacity: 0.8;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .button:disabled, button:disabled {
