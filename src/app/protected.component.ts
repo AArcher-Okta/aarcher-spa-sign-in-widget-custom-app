@@ -9,6 +9,6 @@ export class ProtectedComponent {
   message;
 
   constructor() {
-    this.message = 'Protected endpoint: This route is protected by OktaAuthGuard and is only visible to users with a valid Access Token or ID Token (OIDC).'
+    this.message = 'Protected endpoint: This route is protected by OktaAuthGuard and is only visible to users with a valid Access Token or ID Token.'
   }
 }
