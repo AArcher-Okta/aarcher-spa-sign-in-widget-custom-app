@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
       // use PKCE extension in Authorization Code Grant flow
       pkce: true
     },
-         clientId: '0oa98q8x7rXAhSSmu696',
+         clientId: '0oaa86cbp7GtOz9bw696',
          redirectUri: 'http://localhost:4200/login/callback'
   });
 
