@@ -9,6 +9,7 @@ known issue?
 "error TS2307: Cannot find module '@okta/okta-signin-widget' or its corresponding type declarations."*/
 import * as OktaSignIn from '@okta/okta-signin-widget';
 
+
 @Component({
   selector: 'app-secure',
   template: `
