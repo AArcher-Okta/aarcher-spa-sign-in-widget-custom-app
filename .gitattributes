@@ -1,3 +1,4 @@
 *.pack filter=lfs diff=lfs merge=lfs -text
 *.angular filter=lfs diff=lfs merge=lfs -text
-.angular/cache/angular-webpack/88c3723d168ece74f630c00aca3f26ad9f41c92a/0.pack filter=lfs diff=lfs merge=lfs -text
+.angular/cache/angular-webpack/88c3723d168ece74f630c00aca3f26ad9f41c92a/0.pack
+.angular/cache/angular-webpack/88c3723d168ece74f630c00aca3f26ad9f41c92a/0.pack
