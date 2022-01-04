@@ -11,6 +11,7 @@
     "@angular/platform-browser": "13.1.1",
     "@angular/platform-browser-dynamic": "13.1.1",
     "@angular/router": "13.1.1",
+    "@okta/jwt-verifier": "^0.0.16",
     "@okta/okta-angular": "^3.2.2",
     "@okta/okta-signin-widget": "^5.14.1",
     "angular-in-memory-web-api": "0.11.0",

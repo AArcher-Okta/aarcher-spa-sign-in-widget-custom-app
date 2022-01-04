@@ -25,7 +25,7 @@ import {
 const config = {
   issuer: 'https://zerocurse.okta.com/oauth2/default',
   redirectUri: window.location.origin + '/login/callback',
-  clientId: '0oaa86cbp7GtOz9bw696',
+  clientId: '0oa98q8x7rXAhSSmu696',
   pkce: true
 }
 

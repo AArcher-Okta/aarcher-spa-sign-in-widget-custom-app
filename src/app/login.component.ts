@@ -9,7 +9,6 @@ known issue?
 "error TS2307: Cannot find module '@okta/okta-signin-widget' or its corresponding type declarations."*/
 import * as OktaSignIn from '@okta/okta-signin-widget';
 
-
 @Component({
   selector: 'app-secure',
   template: `
@@ -23,7 +22,7 @@ export class LoginComponent implements OnInit {
   widget = new OktaSignIn({
     el: '#okta-signin-container',
     // add registration
-    features: { registration:true },
+    features: { registration: true },
     // include these scopes in ID Token Claim
     scopes: ['openid', 'profile', 'email'],
     baseUrl: 'https://zerocurse.okta.com',
@@ -31,7 +30,7 @@ export class LoginComponent implements OnInit {
       // use PKCE extension in Authorization Code Grant flow
       pkce: true
     },
-         clientId: '0oaa86cbp7GtOz9bw696',
+         clientId: '0oa98q8x7rXAhSSmu696',
          redirectUri: 'http://localhost:4200/login/callback'
   });
 
