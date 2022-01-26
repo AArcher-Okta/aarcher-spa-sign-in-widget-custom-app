@@ -23,9 +23,9 @@ import {
 } from '@okta/okta-angular';
 
 const config = {
-  issuer: 'https://dev-62376248.okta.com/oauth2/default',
+  issuer: 'https://zerocurse.okta.com/oauth2/default',
   redirectUri: window.location.origin + '/login/callback',
-  clientId: '0oa12pg1938paTMyC5d7',
+  clientId: '0oa98q8x7rXAhSSmu696',
   pkce: true
 }
 

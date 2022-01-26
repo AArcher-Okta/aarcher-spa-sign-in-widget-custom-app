@@ -25,12 +25,12 @@ export class LoginComponent implements OnInit {
     features: { registration:true },
     // include these scopes in ID Token Claim
     scopes: ['openid', 'profile', 'email'],
-    baseUrl: 'https://dev-62376248.okta.com',
+    baseUrl: 'https://zerocurse.okta.com',
     authParams: {
       // use PKCE extension in Authorization Code Grant flow
       pkce: true
     },
-         clientId: '0oa12pg1938paTMyC5d7',
+         clientId: '0oa98q8x7rXAhSSmu696',
          redirectUri: 'http://localhost:4200/login/callback'
   });
 
