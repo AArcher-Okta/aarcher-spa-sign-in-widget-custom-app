@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
   widget = new OktaSignIn({
     el: '#okta-signin-container',
     // add registration
-    features: { registration:true },
+    features: { registration: true },
     // include these scopes in ID Token Claim
     scopes: ['openid', 'profile', 'email'],
     baseUrl: 'https://zerocurse.okta.com',
