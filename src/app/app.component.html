@@ -6,6 +6,8 @@
       <button class="oktaButton" *ngIf="isAuthenticated" (click)="logout()"> Logout </button>
       <button class="oktaButton" routerLink="/protected" *ngIf="!isAuthenticated" style="display: none"> Protected </button>
       <button class="oktaButton" routerLink="/protected" *ngIf="isAuthenticated" style="display: flex"> Protected </button>
+      <!-- <button class="oktaButton" routerLink="/profile" *ngIf="!isAuthenticated" style="display: none"> Profile </button>
+      <button class="oktaButton" routerLink="/profile" *ngIf="isAuthenticated" style="display: flex"> Profile </button> -->
       <button class="oktaButton" routerLink="/profile"> Profile </button>
     </div>   
 <router-outlet></router-outlet>
