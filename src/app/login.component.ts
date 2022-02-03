@@ -23,14 +23,16 @@ export class LoginComponent implements OnInit {
     el: '#okta-signin-container',
     // add registration
     features: { registration: true },
-    // include these scopes in ID Token Claim
+    // include these scopes in ID Token Clai
+    language: 'en', // Try: [fr, de, es, ja, zh-CN
+    // logo: 'https://i.ibb.co/B34hK3Q/archer-image.png',
     scopes: ['openid', 'profile', 'email'],
-    baseUrl: 'https://zerocurse.okta.com',
+    baseUrl: 'https://archfaktor.okta.com',
     authParams: {
       // use PKCE extension in Authorization Code Grant flow
       pkce: true
     },
-         clientId: '0oa98q8x7rXAhSSmu696',
+         clientId: '0oaeragqu8rwzUQTi696',
          redirectUri: 'http://localhost:4200/login/callback'
   });
 
