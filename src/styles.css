@@ -95,6 +95,13 @@ app-top-bar {
   align-items: center;
 }
 
+/* .auth-org-logo {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+} */
+
 #okta-signin-container {
   display: flex;
   flex-direction: column;
