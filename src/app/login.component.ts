@@ -21,6 +21,8 @@ export class LoginComponent implements OnInit {
   authService;
   widget = new OktaSignIn({
     el: '#okta-signin-container',
+    // include these scopes in ID Token Clai
+    language: 'en', // Try: [fr, de, es, ja, zh-CN
     // add registration
     features: { registration: true },
     // include these scopes in ID Token Claim
