@@ -40,5 +40,5 @@ hooks/*
 .DS_Store
 Thumbs.db
 
-.login.component.ts
-.app.module.ts
+login.component.ts
+app.module.ts
