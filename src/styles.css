@@ -1,4 +1,4 @@
-/* Global Styles */
+Global Styles
 .profileComponent {
   margin-top: 100px;
 }
@@ -302,4 +302,15 @@ app-top-bar h1 {
   display: flex;
   margin-bottom: 10px;
   max-width: 200px;
+}
+/* 
+.social-auth-google-button {
+  background-image: url(https://miro.medium.com/max/1104/1*HHM0sJKRnksQxoEebvbZmQ.png)
+} */
+
+.social-auth-google-button {
+  text-transform: uppercase;
+  color: rgb(158, 24, 24);
+  background-color: white;
+  border: 2px solid white;
 }
